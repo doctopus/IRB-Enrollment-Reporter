@@ -12,6 +12,8 @@ numpy = "^1.25.0"
 pandas = "^2.0.3"
 matplotlib = "^3.7.2"
 openpyxl = "^3.1.2"
+sqlalchemy = "^2.0.18"
+pymysql = "^1.1.0"
 
 
 [build-system]
