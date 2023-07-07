@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "irb-enrollment-reporter"
+version = "0.1.0"
+description = ""
+authors = ["Doctopus <milan.najim@gmail.com>"]
+readme = "README.md"
+packages = [{include = "irb_enrollment_reporter"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.25.0"
+pandas = "^2.0.3"
+matplotlib = "^3.7.2"
+openpyxl = "^3.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
