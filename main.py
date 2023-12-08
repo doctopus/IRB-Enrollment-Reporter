@@ -10,7 +10,7 @@ connection = engine.connect()
 result = connection.execute('SELECT * FROM your_table')
 for row in result:
     print(row)
-
+# Close Connection
 connection.close()
 
 excel_data = "data/enrollment.xlsx"
